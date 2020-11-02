@@ -1,5 +1,6 @@
 
 body{
+    font-family: 'Itim', cursive;
     background-color:#F0A500;
     margin: 0px;
     padding: 0px;
@@ -59,13 +60,16 @@ li a:hover{
     font-family: sans-serif;
     border: 2px solid grey;
     border-radius: 5px;
+    user-select: none;
     
 }
 
 #logo:hover{
+    cursor: default;
     box-shadow: 1px 1px;
     transform: rotate(1deg) ;
 }
+
 
 footer{
     color: white;
@@ -87,6 +91,7 @@ main{
     display: flex;
     margin: 50px;
     background-color: #CF7500;
+    border-radius: 50px;
 }
 
 h1{
@@ -98,7 +103,6 @@ h1{
 }
 
 .col-2 img{
-
     width: 250px;
 }
 
@@ -110,3 +114,13 @@ h1{
     font-size: 50px;
 }
 
+.price{
+    text-align: center;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+}
+
+.import:hover{
+    width: 100%;
+    transform: rotate(3deg);
+}
