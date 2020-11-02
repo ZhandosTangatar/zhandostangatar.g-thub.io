@@ -1,85 +1,112 @@
 
 body{
-   	background-image: url("img/library.jpg");
-    background-repeat: no-repeat;
- 	 
-    background-size: cover;
+    background-color:#F0A500;
     margin: 0px;
-    display: flex;
-	flex-direction: column;
+    padding: 0px;
+    height: 100vh;
     position: relative;
 }
+
+
+header, footer{
+    width: 100%;
+    min-height: 70px;
+}   
+
 header{
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.7);;
-    height: 120px;
-
-}
-
-#collections{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main{
-    margin: 60px 300px;
-    display: flex;
-
-}
-
-.book{
-    width: 250px;
-}
-
-.card{
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-    margin: 25px 25px;
-}
-
-.name{
-    margin: 0px;
-    width: 250;
-    color: white;
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-#searching{
-    display: inline-block;
-    display: flex;
-    justify-content: center;
-    height: 30px;
-}
-
-a:hover{
-    background-color: red;
-    
-}
-
-a{  
-    width: 200px;
-    background: grey;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    text-decoration:none;
-    border: 2px solid white;
+    background-color: #F4F4F4;
+    box-shadow: 2px;
 }
 
 nav{
-    margin: 20px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    margin-top: 25px;
+    
+}
+
+li a{
+    margin: 0px 5px;
+    font-size: 20px;
+    color:  rgb(35, 35, 37);
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    
+}
+
+li a:hover{
+    box-shadow: 1px 1px;
+    color: white;
+    background-color: rgb(35, 35, 37);
+    transform: rotate(1deg) ;
+}
+
+
+
+#logo{
+    margin-left: 30px;
+    margin-top: 15px;
+    padding: 10px;
+    font-weight:bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    border: 2px solid grey;
+    border-radius: 5px;
+    
+}
+
+#logo:hover{
+    box-shadow: 1px 1px;
+    transform: rotate(1deg) ;
 }
 
 footer{
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    text-align: center;
+    background: #1A1C20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.row{
+    display: flex;
+    margin: 50px;
+    background-color: #CF7500;
+}
+
+h1{
+    font-size: 75px;
+}
+
+.col-2{
+    padding: 50px;
+}
+
+.col-2 img{
+
+    width: 250px;
+}
+
+.col-2 p{
+    font-size: 25px;
+}
+
+.col-2 h2{
+    font-size: 50px;
+}
+
